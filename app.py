@@ -11,7 +11,7 @@ except KeyError:
     st.stop()
 
 # Ініціалізація моделі
-model = genai.GenerativeModel('gemini-1.0-pro')
+model = genai.GenerativeModel('gemini-1.5-pro')
 
 st.set_page_config(page_title="AI Асистент для Вакансій", layout="wide")
 
